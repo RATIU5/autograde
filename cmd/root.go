@@ -8,7 +8,7 @@ import (
 )
 
 var rootCmd = &cobra.Command{
-	Use:   "Autograde",
+	Use:   "autograde",
 	Short: "Autograde can auto-grade code assignments and run tests",
 	Run: func(cmd *cobra.Command, args []string) {
 		fmt.Println("Autograde")
